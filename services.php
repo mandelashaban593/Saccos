@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Moto Business HTML5 Responsive Web Template | webthemez</title>
+<title>Sacco</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -35,17 +35,17 @@
         <!-- Service Blcoks -->
         <div class="row service-v1 margin-bottom-40">
             <div class="col-md-4 md-margin-bottom-40">
-               <img class="img-responsive" src="img/service1.jpg" alt="">   
+               <img class="img-responsive" src="img/IMG-20210428-WA0007.jpg" alt="">   
                 <h3>SHARES</h3>
                 <p>This is a portion of member`s equity in the Sacco </p>        
             </div>
             <div class="col-md-4">
-                <img class="img-responsive" src="img/service2.jpg" alt="">            
+                <img class="img-responsive" src="img/IMG-20210428-WA0006.jpg" alt="">            
                 <h3>ALPHA DEPOSIT</h3>
                 <p>Continuous monthly savings by members</p>        
             </div>
             <div class="col-md-4 md-margin-bottom-40">
-              <img class="img-responsive" src="img/service3.jpg" alt="">  
+              <img class="img-responsive" src="img/IMG-20210428-WA0004.jpg" alt="">  
                 <h3>PRIME ACCOUNT</h3>
                 <p>This is a Transactional account like a bank’s current account.</p>        
             </div>
@@ -59,22 +59,22 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-bell-o"></i>
                 <div class="info-blocks-in">
-                    <h3>JUNIOR STAR</h3>
-                    <p>Children short term savings</p>
+                    <h3><!-- JUNIOR STAR --></h3>
+                    <p> 1 - Savings (Personal or group savings)</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-hdd-o"></i>
                 <div class="info-blocks-in">
-                    <h3>FontAwesome</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <h3><!-- FontAwesome --></h3>
+                    <p> 2 - Fixed deposit</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-lightbulb-o"></i>
                 <div class="info-blocks-in">
-                    <h3>Bootstrap</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <h3><!-- Bootstrap --></h3>
+                    <p>3 - Commercial loan</p>
                 </div>
             </div>
         </div>
@@ -86,27 +86,47 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-code"></i>
                 <div class="info-blocks-in">
-                    <h3>SEO Ready</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <h3><!-- SEO Ready --></h3>
+                    <p>4 - School fees loan</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-compress"></i>
                 <div class="info-blocks-in">
-                    <h3>Fully Responsive</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <h3><!-- Fully Responsive --></h3>
+                    <p>5 - Agricultural loan</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-html5"></i>
                 <div class="info-blocks-in">
-                    <h3>CSS3 + HTML5</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
+                    <h3><!-- CSS3 + HTML5 --></h3>
+                    <p>6 - Development loan for house constractionor for acquiring assets</p>
                 </div>
             </div>
         </div>
         <!-- End Info Blcoks -->
 
+
+  <!-- Info Blcoks -->
+        <div class="row">
+            <div class="col-sm-4 info-blocks">
+                <i class="icon-info-blocks fa fa-code"></i>
+                <div class="info-blocks-in">
+                    <h3><!-- SEO Ready --></h3>
+                    <p> 7 - College loan</p>
+                </div>
+            </div>
+            <div class="col-sm-4 info-blocks">
+                <i class="icon-info-blocks fa fa-compress"></i>
+                <div class="info-blocks-in">
+                    <h3><!-- Fully Responsive --></h3>
+                    <p> 8 - Money transfer</p>
+                </div>
+            </div>
+            
+        </div>
+        <!-- End Info Blcoks -->
         
     </div>
     </section>

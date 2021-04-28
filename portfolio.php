@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Free Bootstrap website | webthemez</title>
+<title>SACCO</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -35,9 +35,9 @@
 			<div class="col-lg-12">
 				<ul class="portfolio-categ filter">
 					<li class="all active"><a href="#">All</a></li>
-					<li class="web"><a href="#" title="">Web design</a></li>
-					<li class="icon"><a href="#" title="">Mobile App</a></li>
-					<li class="graphic"><a href="#" title="">UI design</a></li>
+					<li class="web"><a href="#" title="">Contact Us</a></li>
+					<li class="icon"><a href="#" title="">About Us</a></li>
+					<li class="graphic"><a href="#" title="">Pricing</a></li>
 				</ul>
 				<div class="clearfix">
 				</div>
@@ -47,18 +47,18 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/1.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/sacc.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/1.jpg" alt="">
+						<img src="img/works/IMG-20210428-WA0007.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-1" data-type="icon">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/2.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/IMG-20210428-WA0005.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
@@ -69,29 +69,29 @@
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 photography" data-id="id-2" data-type="graphic">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/3.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/IMG-20210428-WA0003.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/3.jpg" alt="">
+						<img src="img/works/IMG-20210428-WA0005.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 design" data-id="id-0" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/4.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/IMG-20210428-WA0005.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>
 						<!-- Thumb Image and Description -->
-						<img src="img/works/4.jpg" alt="">
+						<img src="img/works/IMG-20210428-WA0007.jpg" alt="">
 						</li>
 						<!-- End Item Project -->
 						<!-- Item Project and Filter Name -->
 						<li class="item-thumbs col-lg-3 photography" data-id="id-4" data-type="web">
 						<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/5.jpg">
+						<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Portfolio name" href="img/works/sacc.jpg">
 						<span class="overlay-img"></span>
 						<span class="overlay-img-thumb"><i class="icon-info-blocks fa fa-search"></i></span>
 						</a>

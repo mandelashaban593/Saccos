@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Moto Free Bootstrap Theme | webthemez</title>
+<title>SACCO</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
@@ -26,35 +26,35 @@
         <div id="main-slider" class="flexslider">
             <ul class="slides">
               <li>
-                <img src="img/slides/1.jpg" alt="" />
+                <img src="img/slides/IMG-20210428-WA0005.jpg" alt="" />
 				<div class="container">
 				<div class="row">
 				<div class="col-md-12">
                 <div class="flex-caption">
                     <h3>Consulting</h3> 
-					<p>Doloribus omnis minus temporus perfndis <br>ipsa architectni quam</p>  
+					<p>Get to reach us through our contact Page by clicking <a href="contact.php">Contact</a> at any time <br></p>  
                 </div>
 				</div></div></div>
               </li>
               <li>
-                <img src="img/slides/2.jpg" alt="" />
+                <img src="img/slides/IMG-20210428-WA0005.jpg" alt="" />
 				<div class="container">
 				<div class="row">
 				<div class="col-md-12">
                 <div class="flex-caption">
                     <h3>Business</h3> 
-					<p>Lorem ipsum dolor sit amet, consetung <br>elit eius magni provident.</p> 
+					<p>A SACCO is an for Savings and Credit Cooperative Organizations. It is owned, governed and managed by its members who have the same common bond: they may be working for the same employer, belonging to the same church, labour union, social fraternity or living/working in the same community.</p> 
                 </div>
 				</div></div></div>
               </li>
               <li>
-                <img src="img/slides/3.jpg" alt="" />
+                <img src="img/slides/IMG-20210428-WA0006.jpg" alt="" />
 				<div class="container">
 				<div class="row">
 				<div class="col-md-12">
                 <div class="flex-caption">
                     <h3>Marketing</h3> 
-					<p>Lorem ipsum dolor sitamet, cnsscing <br>elit donec mer lacinia.</p>  
+					<p>our marketing strategy we present to our multiple clients, to be process <br/>for managing customer relationships that drive brand value primarily through communication efforts. </p>  
                 </div>
 				</div></div></div>
               </li>
@@ -67,11 +67,11 @@
 	<div class="container">
 		<div class="row">
 		<div class="col-md-4">
-		<img src="img/people.png" alt="" width="100%"/>
+		<img src="img/sacc.jpg" alt="" width="100%"/>
 		</div>
 			<div class="col-md-8">
-				<div><h1><span>Our Services</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam. eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuuam.</p>
-				<p>Perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur.</p>
+				<div><h1><span>Our Services</h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p>In recognition of the problems faced in accessing financial services from financial institutions suck as banks and other money lending institutions due to rigidity, unfavorable terms and conditions set by this istitutions especially for the rural population and the low income groups such as women, small business persons, farmers and even working class and also in realization people in South Sudan have poor saving habits particularly the working class. the funding members of Rural-Urban SACCO LTD in meeting held on v4th Marchv2013vresolve to establish Rural-Urban SACCO Lii) to address the problems laced by the people rural and urban areas accessing manageable credit facilities as well as to encourage saving hobbits among the people in rural and urban areas of South Sudan.</p>
+				<p>Rural - Urban savings and Credit Cooperative Society Limited is legal entity that was registered in 2013 by the registrar of Cooperative Society under the Cooperative act 2011 of South SUdan to provide financial services to its members in the Republic of South Sudan. it obtained its legal status on 4th/03/2013 when it was issued a certificate of registration bearing registration Number 92/2013.</p>
 				</div>
 			</div>
 		</div>
@@ -86,22 +86,25 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-bell-o"></i>
                 <div class="info-blocks-in">
-                    <h3>Awesome Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam.</p>
+                    <h3></h3>
+                    <p>: This legal status allows Rural-Urban Saving and Credit Cooperative Society Limited as a Cooperate body (Legal entity) to mobilize member's savings and provide credit facilities to its members. It also allow the society to apply, recive funding and grants from any source. The head office of Rural-Urban SACCO LTD is in Kajo-Keji county, CES located jti4(pdu Trading Commercial Centre, the SACCO has no*, &6d a branch office in Juba located in Munuki Suk Lybia near Fire Brigade office</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-hdd-o"></i>
                 <div class="info-blocks-in">
-                    <h3>FontAwesome</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam.</p>
+                    <h3>Vision:</h3>
+                    <p> ''To create a self reliant economically empowered and poverty free society''</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-lightbulb-o"></i>
                 <div class="info-blocks-in">
-                    <h3>Bootstrap</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam.</p>
+                    <h3>Mission</h3>
+                    <p>1 To promote savings
+ 2 To extend affordable credit
+ 3 To become a leading SACCO in the Republic of South Sudan by providing a diversity of quality products and services
+</p>
                 </div>
             </div>
         </div>
@@ -109,8 +112,9 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-code"></i>
                 <div class="info-blocks-in">
-                    <h3>SEO Ready</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam.</p>
+                    <h3>Core Values</h3>
+                    <p>
+1 Honesty, 2 Intergrity, 3 Equality and Equity, 4 Transparency, 5 Cooperation, 6 Concern for community in general</p>
                 </div>
             </div>
             <div class="col-sm-4 info-blocks">
@@ -134,11 +138,7 @@
 								<div class="block-heading-two">
 									<h3><span>Why Choose Us?</span></h3>
 								</div>
-								<p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br><br>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
-								<p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo quasi architecto beatae vitae dicta sunt explicabo.</p>
-								
-								<p>Tis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br><br>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
-								<p>Voluptatem accusanti veritatis et quasi architecto beatae vitae dicta sunt explicabo quasi architecto beatae vitae dicta sunt explicabo.</p> 
+								<p>Rural - Urban savings and Credit Cooperative Society Limited is legal entity that was registered in 2013 by the registrar of Cooperative Society under the Cooperative act 2011 of South SUdan to provide financial services to its members in the Republic of South Sudan. it obtained its legal status on 4th/03/2013 when it was issued a certificate of registration bearing registration Number 92/2013.</p> 
 							</div>
 							<div class="col-xs-12 col-sm-12 col-md-5">
                  
@@ -148,38 +148,39 @@
                         <!--Post item-->
                         
                           <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
-                            <img src="img/news-2.jpg" class="img-responsive post-author-img" alt="">
+                            <img src="img/IMG-20210428-WA0001.jpg" class="img-responsive post-author-img" alt="">
                             <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
-        	                        <div class="post-title pull-left"><a href="#">Lorem ipsum dolor sitfroifs</a></div>
+        	                        <div class="post-title pull-left"><a href="#">
+Don’t kill your SACCO</a></div>
         	                        <div class="post-meta-top pull-left">
         	                            <ul>
-        	                            <li><i class="fa fa-calendar"></i>22 Aug 2014</li> 
-										<li><p>Voluptatem accusantium doloremque...</p></li>
+        	                            <li><i class="fa fa-calendar"></i>28 April 2021</li> 
+										<li><p>Tips to maintain business...</p></li>
         	                            </ul>
         	                        </div>
                                 </div> 
                          </div>
 						  <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
-                            <img src="img/news-1.jpg" class="img-responsive post-author-img" alt="">
+                            <img src="img/IMG-20210428-WA0003.jpg" class="img-responsive post-author-img" alt="">
                             <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
-        	                        <div class="post-title pull-left"><a href="#">Lorem ipsum dolor sitfroifs</a></div>
+        	                        <div class="post-title pull-left"><a href="#">Growing business</a></div>
         	                        <div class="post-meta-top pull-left">
         	                            <ul>
-        	                            <li><i class="fa fa-calendar"></i>22 Sep 2014</li> 
-										<li><p>Voluptatem accusantium doloremque...</p></li>
+        	                            <li><i class="fa fa-calendar"></i>28 April 2021</li> 
+										<li><p>Helping You and Businesses Reach Your Full Potential ...</p></li>
         	                            </ul>
         	                        </div>
                                 </div> 
                          </div>
                          <!--Post item-->
                         <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
-                            <img src="img/news-2.jpg" class="img-responsive post-author-img" alt="">
+                            <img src="img/IMG-20210428-WA0007.jpg" class="img-responsive post-author-img" alt="">
                             <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
-        	                        <div class="post-title pull-left"><a href="#">Lorem ipsum dolor sitfroifs</a></div>
+        	                        <div class="post-title pull-left"><a href="#">Our value</a></div>
         	                        <div class="post-meta-top pull-left">
         	                            <ul>
-        	                            <li><i class="fa fa-calendar"></i>22 DEC 2014</li> 
-										<li><p>Voluptatem accusantium doloremque...</p></li>
+        	                            <li><i class="fa fa-calendar"></i>28 DEC 2021</li> 
+										<li><p>sacco financial services amid-covid-19 pandemic..</p></li>
         	                            </ul>
         	                        </div>
                                 </div> 
