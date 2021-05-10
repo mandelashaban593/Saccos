@@ -39,7 +39,7 @@
 	</div>
 <div class="row">
 <div class="col-md-6">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor.</p>
+<h4>Contact US .</h4>
 <div class="alert alert-success hidden" id="contactSuccess">
 <strong>Success!</strong> Your message has been sent to us.
 </div>
@@ -73,14 +73,22 @@
 </div>
 </div>
 <div class="col-md-6">  
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.
+<h3>Rural-Urban SACCO ltd has three branches as below;</h43>
+ <h4>   a Juba branch </h4>
+<p>Located in Munuki Suk Libya on the way to Munuki police station.<br/>
+Tel 0922468629/0925789680/0921300516</p>
+   <h4>   b Yei branch </h4>
+<p>Located along Maridi road, next to Nyardene swamp before Yei day s.s road.<br/>
+Tel 0921700760/0924837560</p>
+ <h4>   c Kajo-keji branch </h4>
+<p>Located in Mere to<br/>wn on Juba high way
+Tel 0929354521<br/>
+Email contact: Email.mansuktimon@gmail.com 
 </p>
 <br/>
-<p><b>Consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus</b></p>
+<p><b></b></p>
 <br/>
-<p>Telephone: +1 234 657 6035<br>
-FAX: +1 234 199 9898<br>
-E-mail: <a href="mailto:info@sitename.org">mail@sitename.org</a></p>
+
 </div>
 </div>
 </div>
