@@ -85,21 +85,23 @@ In recognition of the problems faced in accessing financial services from financ
 <div class="container">
 <div class="row">
 <div class="col-sm-4 info-blocks">
-<i class="icon-info-blocks fa fa-bell-o"></i>
+<img class="" src="img/legalStatus.jpeg" alt="">
+
 <div class="info-blocks-in">
 <h3></h3>
 <p>: This legal status allows Rural-Urban Saving and Credit Cooperative Society Limited as a Cooperate body (Legal entity) to mobilize member's savings and provide credit facilities to its members. It also allow the society to apply, recive funding and grants from any source. The head office of Rural-Urban SACCO LTD is in Kajo-Keji county, CES located jti4(pdu Trading Commercial Centre, the SACCO has no*, &6d a branch office in Juba located in Munuki Suk Lybia near Fire Brigade office</p>
 </div>
 </div>
 <div class="col-sm-4 info-blocks">
-<i class="icon-info-blocks fa fa-hdd-o"></i>
+<img class="" src="img/vision.jpeg" alt="">
+
 <div class="info-blocks-in">
 <h3>Vision:</h3>
 <p> ''To create a self reliant economically empowered and poverty free society''</p>
 </div>
 </div>
 <div class="col-sm-4 info-blocks">
-<i class="icon-info-blocks fa fa-lightbulb-o"></i>
+<img class="" src="img/mision.png" alt="">
 <div class="info-blocks-in">
 <h3>Mission</h3>
 <p>1 To promote savings
@@ -111,27 +113,15 @@ In recognition of the problems faced in accessing financial services from financ
 </div>
 <div class="row">
 <div class="col-sm-4 info-blocks">
-<i class="icon-info-blocks fa fa-code"></i>
+<img class="" src="img/corevalues.png" alt="">
 <div class="info-blocks-in">
 <h3>Core Values</h3>
 <p>
 1 Honesty, 2 Intergrity, 3 Equality and Equity, 4 Transparency, 5 Cooperation, 6 Concern for community in general</p>
 </div>
 </div>
-<div class="col-sm-4 info-blocks">
-<i class="icon-info-blocks fa fa-compress"></i>
-<div class="info-blocks-in">
-<h3>Fully Responsive</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam.</p>
-</div>
-</div>
-<div class="col-sm-4 info-blocks">
-<i class="icon-info-blocks fa fa-html5"></i>
-<div class="info-blocks-in">
-<h3>CSS3 + HTML5</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam.</p>
-</div>
-</div>
+
+
 </div>
 <div class="row">
 <div class="col-md-7">
@@ -199,79 +189,10 @@ Don’t kill your SACCO</a></div>
 
 </section>
 
-<footer>
-<div class="container">
-<div class="row">
-<div class="col-lg-3">
-<div class="widget">
-<h5 class="widgetheading">Our Contact</h5>
-<address>
-<strong>Target company Inc</strong><br>
-JC Main Road, Near Silnile tower<br>
-Pin-21542 NewYork US.</address>
-<p>
-<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-<i class="icon-envelope-alt"></i> email@domainname.com
-</p>
-</div>
-</div>
-<div class="col-lg-3">
-<div class="widget">
-<h5 class="widgetheading">Quick Links</h5>
-<ul class="link-list">
-<li><a href="#">Latest Events</a></li>
-<li><a href="#">Terms and conditions</a></li>
-<li><a href="#">Privacy policy</a></li>
-<li><a href="#">Career</a></li>
-<li><a href="#">Contact us</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3">
-<div class="widget">
-<h5 class="widgetheading">Latest posts</h5>
-<ul class="link-list">
-<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-</ul>
-</div>
-</div>
-<div class="col-lg-3">
-<div class="widget">
-<h5 class="widgetheading">Recent News</h5>
-<ul class="link-list">
-<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div id="sub-footer">
-<div class="container">
-<div class="row">
-<div class="col-lg-6">
-<div class="copyright">
-<p>
-<span>&copy; Site name 2015 All right reserved. Template by </span><a href="http://webthemez.com" target="_blank">WebThemez</a>
-</p>
-</div>
-</div>
-<div class="col-lg-6">
-<ul class="social-network">
-<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</footer>
+
+<?php require("footer.php"); ?>
+
+
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
