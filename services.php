@@ -1,3 +1,19 @@
+ <?php
+        session_start();
+         if(isset($_GET['msg'])){
+             
+  if($_GET['msg']=='updated'){
+      ?>
+      <div class="alert alert-success text-center" role="alert">
+  Successfully Updated !
+</div>
+      <?php
+  }  
+ } 
+
+include('include/db.php');
+
+?>  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,100 +54,39 @@ height:  160px;
 <section id="content">
 <div class="container content">		
 <!-- Service Blcoks -->
-<div class="row service-v1 margin-bottom-40">
-<div class="col-md-4 md-margin-bottom-40">
-<img class="img-responsive" src="img/IMG-20210428-WA0007.jpg" alt="">   
-<h3>SHARES</h3>
-<p>This is a portion of member`s equity in the Sacco </p>        
-</div>
-<div class="col-md-4">
-<img class="img-responsive" src="img/IMG-20210428-WA0006.jpg" alt="">            
-<h3>ALPHA DEPOSIT</h3>
-<p>Continuous monthly savings by members</p>        
-</div>
-<div class="col-md-4 md-margin-bottom-40">
-<img class="img-responsive" src="img/IMG-20210428-WA0004.jpg" alt="">  
-<h3>PRIME ACCOUNT</h3>
-<p>This is a Transactional account like a bank’s current account.</p>        
-</div>
-</div>
+
 <!-- End Service Blcoks -->
 
 <hr class="margin-bottom-50">
 
 <!-- Info Blcoks -->
-<div class="row">
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/loans.jpeg" alt="">   
-
-<div class="info-blocks-in">
-<h3><!-- JUNIOR STAR --></h3>
-<p> 1 - Loans/credit facilities like commercial, school fees and college, agriculture, development, and asset acquisition</p>
-</div>
-</div>
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/SavingsAccount.jpg" alt="">   
-
-<div class="info-blocks-in">
-<h3><!-- FontAwesome --></h3>
-<p> 2 - Savings like personal and group, fixed deposits</p>
-</div>
-</div>
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/moneytransfer.jpg" alt="">   
-<div class="info-blocks-in">
-<h3><!-- Bootstrap --></h3>
-<p>3 - Money transfer services to all our branches </p>
-</div>
-</div>
-</div>
-<!-- End Info Blcoks -->
 
 
-<!-- Info Blcoks -->
-<div class="row">
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/AgentBanking.jpg" alt="">
-<div class="info-blocks-in">
-<h3><!-- SEO Ready --></h3>
-<p>4 - Agency banking with cooperative bank of South Sudan and Equity bank</p>
-</div>
-</div>
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/agricLoan.jpg" alt="">
+<?php
+$query5 = "select * FROM product_services";
+$runquery5= mysqli_query($db,$query5);
+while($data5=mysqli_fetch_array($runquery5)){
+?>
+<div class="col-lg-3 col-md-6 portfolio-item">
+<div class="portfolio-wrap">
+<img src="assets/img/<?=$data5['projectpic']?>" class="img-responsive" alt="">
+<div class="portfolio-links" >
+
+<a href="assets/img/<?=$data5['projectpic']?>" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+<a href="<?=$data5['projectlink']?>" target="_blank" title="Visit <?=$data5['projectname']?>"><i class="bx bx-link"></i></a>
 
 <div class="info-blocks-in">
 <h3><!-- Fully Responsive --></h3>
-<p>5 - Agricultural loan</p>
+<p><?=$data5['projectname']?></p>
 </div>
-</div>
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/DevelopmentLoan.jpg" alt="">
-<div class="info-blocks-in">
-<h3><!-- CSS3 + HTML5 --></h3>
-<p>6 - Development loan for house constractionor for acquiring assets</p>
-</div>
-</div>
-</div>
-<!-- End Info Blcoks -->
 
 
-<!-- Info Blcoks -->
-<div class="row">
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/educationLoan.jpg" alt="">
-<div class="info-blocks-in">
-<h3><!-- SEO Ready --></h3>
-<p> 7 - College loan</p>
 </div>
 </div>
-<div class="col-sm-4 info-blocks">
-<img class="img-responsive" src="img/moneytransfer.jpg" alt="">
-<div class="info-blocks-in">
-<h3><!-- Fully Responsive --></h3>
-<p> 8 - Money transfer</p>
 </div>
-</div>
+<?php
+}
+?>
 
 </div>
 <!-- End Info Blcoks -->

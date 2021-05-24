@@ -29,3 +29,12 @@ License :
 
 Note:
 All images user here is for demo purpose only, we are not responsible for any copyrights.
+
+
+UPLOAD ERROR
+sudo chown -R www-data:www-data /var/www/html/content_management_system/assets/uploads/
+sudo chown -R www-data:www-data /var/www/html/content_management_system/assets/uploads/
+sudo chmod 777 /var/www/html/content_management_system/admin
+sudo chmod 777 /var/www/html/content_management_system/assets/uploads/*
+
+

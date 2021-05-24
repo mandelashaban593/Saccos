@@ -20,9 +20,10 @@
 
 <li><a href="contact.php">Contact</a></li>
 <li>
+	<li><a href="admin/index.php">Login</a></li>
+
 <div class="dropdown" id="mydropdown">
-<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Log In
-<span class="caret"></span></button>
+
 <!-- <span class="dropdown-menu" id="mydropdown-menu">
 <a href="pages/agentpages/home.php">Agent Dashboard</a>
 <a href="pages/stakeholderpages/stakeholderhome.php">Stakeholder dashboard</a>

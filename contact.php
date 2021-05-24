@@ -1,3 +1,23 @@
+ <?php
+        session_start();
+         if(isset($_GET['msg'])){
+             
+  if($_GET['msg']=='updated'){
+      ?>
+      <div class="alert alert-success text-center" role="alert">
+  Successfully Updated !
+</div>
+      <?php
+  }  
+ } 
+
+include('include/db.php');
+$query="SELECT * FROM contacts_setup";
+$queryrun=mysqli_query($db,$query);
+$data=mysqli_fetch_array($queryrun);
+
+
+?>  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,46 +67,44 @@
 <strong>Error!</strong> There was an error sending your message.
 </div>
 <div class="contact-form">
-<form id="contact-form" role="form" novalidate="novalidate">
-<div class="form-group has-feedback">
-<label for="name">Name*</label>
-<input type="text" class="form-control" id="name" name="name" placeholder="">
-<i class="fa fa-user form-control-feedback"></i>
+<form action="include/message.php" method="post" role="form" class="php-email-form">
+<div class="form-row">
+<div class="form-group col-md-6">
+<label for="name">Your Name</label>
+<input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+<div class="validate"></div>
 </div>
-<div class="form-group has-feedback">
-<label for="email">Email*</label>
-<input type="email" class="form-control" id="email" name="email" placeholder="">
-<i class="fa fa-envelope form-control-feedback"></i>
+<div class="form-group col-md-6">
+<label for="name">Your Email</label>
+<input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+<div class="validate"></div>
 </div>
-<div class="form-group has-feedback">
-<label for="subject">Subject*</label>
-<input type="text" class="form-control" id="subject" name="subject" placeholder="">
-<i class="fa fa-navicon form-control-feedback"></i>
 </div>
-<div class="form-group has-feedback">
-<label for="message">Message*</label>
-<textarea class="form-control" rows="6" id="message" name="message" placeholder=""></textarea>
-<i class="fa fa-pencil form-control-feedback"></i>
+<div class="form-group">
+<label for="name">Subject</label>
+<input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+<div class="validate"></div>
 </div>
-<input type="submit" value="Submit" class="btn btn-default">
+<div class="form-group">
+<label for="name">Message</label>
+<textarea class="form-control" name="message" id="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+<div class="validate"></div>
+</div>
+<div class="mb-3">
+<div class="loading">Loading</div>
+<div class="bg-success error-message"></div>
+<div class="sent-message"></div>
+</div>
+<div class="text-center"><button type="submit">Send Message</button></div>
 </form>
 </div>
 </div>
 <div class="col-md-6">  
-<h3>Rural-Urban SACCO ltd has three branches as below;</h43>
- <h4>   a Juba branch </h4>
-<p>Located in Munuki Suk Libya on the way to Munuki police station.<br/>
-Tel 0922468629/0925789680/0921300516</p>
-   <h4>   b Yei branch </h4>
-<p>Located along Maridi road, next to Nyardene swamp before Yei day s.s road.<br/>
-Tel 0921700760/0924837560</p>
- <h4>   c Kajo-keji branch </h4>
-<p>Located in Mere to<br/>wn on Juba high way
-Tel 0929354521<br/>
-Email contact: Email.mansuktimon@gmail.com 
-</p>
-<br/>
-<p><b></b></p>
+<h3><?=$data['heading'];?></h43>
+ <h4>   </h4>
+<p><?=nl2br($data['longdesc']);?></p>
+   
+<br/></p>
 <br/>
 
 </div>

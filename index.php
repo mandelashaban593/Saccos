@@ -85,40 +85,35 @@ In recognition of the problems faced in accessing financial services from financ
 <div class="container">
 <div class="row">
 <div class="col-sm-4 info-blocks">
-<img class="" src="img/legalStatus.jpeg" alt="">
-
+<!-- <img class="" src="img/legalStatus.jpeg" alt="">
+ -->
 <div class="info-blocks-in">
 <h3></h3>
-<p>: This legal status allows Rural-Urban Saving and Credit Cooperative Society Limited as a Cooperate body (Legal entity) to mobilize member's savings and provide credit facilities to its members. It also allow the society to apply, recive funding and grants from any source. The head office of Rural-Urban SACCO LTD is in Kajo-Keji county, CES located jti4(pdu Trading Commercial Centre, the SACCO has no*, &6d a branch office in Juba located in Munuki Suk Lybia near Fire Brigade office</p>
+<!-- <p>: This legal status allows Rural-Urban Saving and Credit Cooperative Society Limited as a Cooperate body (Legal entity) to mobilize member's savings and provide credit facilities to its members. It also allow the society to apply, recive funding and grants from any source. The head office of Rural-Urban SACCO LTD is in Kajo-Keji county, CES located jti4(pdu Trading Commercial Centre, the SACCO has no*, &6d a branch office in Juba located in Munuki Suk Lybia near Fire Brigade office</p> -->
 </div>
 </div>
 <div class="col-sm-4 info-blocks">
-<img class="" src="img/vision.jpeg" alt="">
+<!-- <img class="" src="img/vision.jpeg" alt=""> -->
 
 <div class="info-blocks-in">
-<h3>Vision:</h3>
-<p> ''To create a self reliant economically empowered and poverty free society''</p>
+
 </div>
 </div>
 <div class="col-sm-4 info-blocks">
-<img class="" src="img/mision.png" alt="">
 <div class="info-blocks-in">
-<h3>Mission</h3>
-<p>1 To promote savings
-2 To extend affordable credit
-3 To become a leading SACCO in the Republic of South Sudan by providing a diversity of quality products and services
-</p>
+<!-- <img class="" src="img/mision.png" alt=""> -->
+
 </div>
 </div>
 </div>
 <div class="row">
 <div class="col-sm-4 info-blocks">
-<img class="" src="img/corevalues.png" alt="">
-<div class="info-blocks-in">
+<!-- <img class="" src="img/corevalues.png" alt=""> -->
+<!-- <div class="info-blocks-in">
 <h3>Core Values</h3>
 <p>
 1 Honesty, 2 Intergrity, 3 Equality and Equity, 4 Transparency, 5 Cooperation, 6 Concern for community in general</p>
-</div>
+</div> -->
 </div>
 
 
@@ -126,19 +121,19 @@ In recognition of the problems faced in accessing financial services from financ
 <div class="row">
 <div class="col-md-7">
 <!-- Heading and para -->
-<div class="block-heading-two">
+<!-- <div class="block-heading-two">
 <h3><span>Why Choose Us?</span></h3>
 </div>
-<p>Rural - Urban savings and Credit Cooperative Society Limited is legal entity that was registered in 2013 by the registrar of Cooperative Society under the Cooperative act 2011 of South SUdan to provide financial services to its members in the Republic of South Sudan. it obtained its legal status on 4th/03/2013 when it was issued a certificate of registration bearing registration Number 92/2013.</p> 
+<p>Rural - Urban savings and Credit Cooperative Society Limited is legal entity that was registered in 2013 by the registrar of Cooperative Society under the Cooperative act 2011 of South SUdan to provide financial services to its members in the Republic of South Sudan. it obtained its legal status on 4th/03/2013 when it was issued a certificate of registration bearing registration Number 92/2013.</p>  -->
 </div>
 <div class="col-xs-12 col-sm-12 col-md-5">
 
 <div class="latest-post-wrap pull-left"> 
-<h3><span>News</span></h3>
+<!-- <h3><span>News</span></h3> -->
 
 <!--Post item-->
 
-<div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
+<!-- <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
 <img src="img/IMG-20210428-WA0001.jpg" class="img-responsive post-author-img" alt="">
 <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
 <div class="post-title pull-left"><a href="#">
@@ -150,8 +145,8 @@ Don’t kill your SACCO</a></div>
 </ul>
 </div>
 </div> 
-</div>
-<div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
+</div> -->
+<!-- <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
 <img src="img/IMG-20210428-WA0003.jpg" class="img-responsive post-author-img" alt="">
 <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
 <div class="post-title pull-left"><a href="#">Growing business</a></div>
@@ -162,9 +157,9 @@ Don’t kill your SACCO</a></div>
 </ul>
 </div>
 </div> 
-</div>
+</div> -->
 <!--Post item-->
-<div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
+<!-- <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
 <img src="img/IMG-20210428-WA0007.jpg" class="img-responsive post-author-img" alt="">
 <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
 <div class="post-title pull-left"><a href="#">Our value</a></div>
@@ -175,7 +170,7 @@ Don’t kill your SACCO</a></div>
 </ul>
 </div>
 </div> 
-</div> 
+</div>  -->
 
 </div>
 </div>
@@ -199,5 +194,8 @@ Don’t kill your SACCO</a></div>
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <?php require("javascripts.php"); ?>
-</body>
+
+
+
+</body	>
 </html>

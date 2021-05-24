@@ -1,3 +1,24 @@
+ <?php
+        session_start();
+         if(isset($_GET['msg'])){
+             
+  if($_GET['msg']=='updated'){
+      ?>
+      <div class="alert alert-success text-center" role="alert">
+  Successfully Updated !
+</div>
+      <?php
+  }  
+ } 
+
+include('include/db.php');
+$query="SELECT * FROM indrecogn_setup";
+$queryrun=mysqli_query($db,$query);
+$data=mysqli_fetch_array($queryrun);
+
+
+?>   
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,20 +61,10 @@
 <div class="col-md-12"> 
 		<h3> <span class="color"></span></h3>
 		<p>
-			<h2>Certification</h2>
-<p>Rural-Urban savings and credit cooperative society ltd is a legal entity, registered and certified by the cooperative act 2011. Under registration number 92/2013. It has all legal documents such as operation license, clearance from CID, tin number.</p>
-<h2>Awards </h2>
-<p>In the year 2015, due to the performance of the Rural-Urban Sacco, the cooperative of south awarded Rural-Urban Sacco with contract to pay girls in Central Equatoria in the counties of Kajo-keji, Morobo, Yei, and Lainya. In the following year, 2016, Rural-Urban Sacco ltd was given the whole of greater Equatoria to the girls attending school.</p>
-<h2>Media new recognition</h2>
-<p>As a result of our outstanding performance and progress, good management as recognized by South Sudan microfinance initiative, Rural-Urban Sacco ltd was selected to represent South Sudan in the African union of SACCOS in Nairobi Kenya in the year 2015, 2016 and 2017 respectively.
-</p>
-<h2>Testimonies </h2>
-<p>Since its inception in 2013, several members, companies who took loans from Rural-urban SACCO ltd were able to testify to having change positively or grow as results of our service. </p>
-<h2>Partnership </h2>
-<p>Rural-Urban savings and credit cooperative society ltd has been in partnership with the cooperative bank of South Sudan. Rural-Urban Sacco ltd implemented cash in transit services on behalf of the cooperative of South Sudan since 2015. We are also an official agent bank of cooperative bank, serving their customers. Rural-urban Sacco ltd was also a member of Kajo-keji cooperative union. We were also in partnership with South Sudan microfinance initiative and had been submitting monthly reports to the then microfinance..</p>
-        	
-	 
-	<a href="#" class="btn btn-color"><!-- Read more --></a>  
+			<h2><?=$data['heading'];?></h2>
+            <p><?=nl2br($data['longdesc']);?></p>
+
+	        <a href="#" class="btn btn-color"><!-- Read more --></a>  
 </div>
 </div>
 

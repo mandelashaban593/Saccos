@@ -1,3 +1,23 @@
+ <?php
+        session_start();
+         if(isset($_GET['msg'])){
+             
+  if($_GET['msg']=='updated'){
+      ?>
+      <div class="alert alert-success text-center" role="alert">
+  Successfully Updated !
+</div>
+      <?php
+  }  
+ } 
+
+include('include/db.php');
+$query="SELECT * FROM governance_setup";
+$queryrun=mysqli_query($db,$query);
+$data=mysqli_fetch_array($queryrun);
+
+
+?>   
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,10 +58,8 @@
 
 <div class="row"> 
 <div class="col-md-12"> 
-		<h3> <span class="color"></span></h3>
-		<p>Rural-Urban SACCO ltd was established on 4th of April 2013 with Registration number 92/2013 by the Registrar of Cooperative Societies under the cooperative society act Ad 2011 of South Sudan to Provide Financial Services to its Members in the Republic of South Sudan.
-Rural Urban SACCO is a Legal Entity Owned by Members who are Shareholders and Clients at the same time. The members Constitute the supreme Governing body exercising their powers through the Annual General Meeting (AGM) 
-Rural Urban SACCO is Managed by a Management committee consisting of Nine Members (Chairman, Vice Chairman, Secretary, Treasurer and other five Members) Elected by the members during the Annual General Meeting. It also has Supervisory committee who are elected by the members and are responsible for internal control of the SACCO.</p>
+		<h3> <span class="color"><?=$data['heading'];?></span></h3>
+		<p><?=nl2br($data['longdesc']);?>.</p>
         	
 	 
 	<a href="#" class="btn btn-color"><!-- Read more --></a>  
