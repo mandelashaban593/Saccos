@@ -50,25 +50,12 @@ include('include/db.php');
 
 <!-- start header -->
 <?php require("nav.php"); ?><!-- end header -->
-<section id="inner-headline">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<h2 class="pageTitle">Home | Portfolio</h2>
-</div>
-</div>
-</div>
-</section>
+
 <section id="content">
 <div class="container">
 <div class="row">
 <div class="col-lg-12">
-<ul class="portfolio-categ filter">
-<li class="all active"><a href="#">All</a></li>
-<li class="web"><a href="contact.php" title="">Contact Us</a></li>
-<li class="icon"><a href="about.php" title="">About Us</a></li>
 
-</ul>
 <div class="clearfix">
 </div>
 <div class="row">
@@ -78,7 +65,8 @@ include('include/db.php');
 <div class="container">
 
 <div class="section-title">
-<h2>Portfolio</h2>
+<h2  style="color: #2F409C;font-family:Liberation Serif;padding: 0;
+margin: 1;line-height: 1;box-sizing: border-box;font-size: 2.75em;text-transform: none;letter-spacing: 0;">Portfolio</h2>
 </div>
 
 

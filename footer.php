@@ -1,22 +1,15 @@
-<footer>
+<footer style="height:300px">
 <div class="container">
 <div class="row">
 <div class="col-lg-3">
 <div class="widget">
 <h5 class="widgetheading">Our Contact</h5>
 <address>
-<h6>Rural-Urban SACCO ltd has three branches as below;</h6>
- <h6>   a Juba branch </h6>
+<h6>Rural-Urban SACCO ltd</h6>
+ <h6>  Head Quator Juba </h6>
 <p>Located in Munuki Suk Libya on the way to Munuki police station.<br/>
 Tel 0922468629/0925789680/0921300516</p>
-   <h6>   b Yei branch </h6>
-<p>Located along Maridi road, next to Nyardene swamp before Yei day s.s road.<br/>
-Tel 0921700760/0924837560</p>
- <h6>   c Kajo-keji branch </h6>
-<p>Located in Mere to<br/>wn on Juba high way
-Tel 0929354521<br/>
-Email contact: Email.mansuktimon@gmail.com 
-</p>
+
 </div>
 </div>
 <div class="col-lg-3">
@@ -33,7 +26,7 @@ Email contact: Email.mansuktimon@gmail.com
 </div>
 <div class="col-lg-3">
 <div class="widget">
-<h5 class="widgetheading">Loans</h5>
+<<!-- h5 class="widgetheading">Loans</h5>
 <ul class="link-list">
 <li><a href="#">1 - Loans/credit facilities like commercial, school fees and college, agriculture, development, and asset acquisition</a></li>
 <li><a href="#">2 - Savings like personal and group, fixed deposits</a></li>
@@ -44,7 +37,7 @@ Email contact: Email.mansuktimon@gmail.com
 <li><a href="#">7 - College loan</a></li>
 <li><a href="#">8 - Money transfer</a></li>
 
-</ul>
+</ul> -->
 </div>
 </div>
 <div class="col-lg-3">

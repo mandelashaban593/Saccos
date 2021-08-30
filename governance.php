@@ -36,21 +36,16 @@ $data=mysqli_fetch_array($queryrun);
 
 </head>
 <body>
-<div id="wrapper">
+<div id="wrapper" >
 
 <!-- start header -->
 <?php require("nav.php"); ?>
 
-<section id="inner-headline">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<h2 class="pageTitle">Home | Governance</h2>
-</div>
-</div>
-</div>
-</section>
-<section id="content">
+<section id="content"  style="margin-top:0px;background-color:#2F409C;background: 0.3s;border: 0.3s;border-radius: 0.3s;box-shadow: 0.3s;padding: 10px;width: 100%;flex-wrap: wrap;
+-ms-flex-line-pack: start;
+align-content: flex-start;color: var( --e-global-color-text );
+font-family: var( --e-global-typography-text-font-family ), Sans-serif;
+font-weight: var( --e-global-typography-text-font-weight );font-family:Liberation Serif;color: #FFFFFF;font-size: 16px;">
 <div class="container">
 
 
@@ -58,7 +53,11 @@ $data=mysqli_fetch_array($queryrun);
 
 <div class="row"> 
 <div class="col-md-12"> 
-		<h3> <span class="color"><?=$data['heading'];?></span></h3>
+		<h2 style="color: #FCF20C;font-size: 29px;ont-family: var( --e-global-typography-primary-font-family ), Sans-serif;
+font-weight: var( --e-global-typography-primary-font-weight );padding: 0;
+ margin-bottom: 12px;
+line-height: 1;box-sizing: border-box;text-transform: none;
+letter-spacing: 0;font-weight: 200px;"> <span class="color"><?=$data['heading'];?></span></h2>
 		<p><?=nl2br($data['longdesc']);?>.</p>
         	
 	 

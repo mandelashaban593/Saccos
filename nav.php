@@ -7,12 +7,20 @@
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="index.php"><img src="img/LogoSacc.jpg" alt="logo" style="width:100px;height:85px;border-radius: 10px;" /></a>
+<a class="navbar-brand" href="index.php"><img src="img/LogoSacc.jpg" alt="logo" style="width:6%;	position:fixed; 
+	top:0; 
+	left:0;margin-left: 14px; height: 70px;box-sizing: border-box;" /></a>
 </div>
 <div class="navbar-collapse collapse ">
 <ul class="nav navbar-nav">
 <li class="active"><a href="index.php">Home</a></li> 
 <li><a href="about.php">About Us</a></li>
+
+<li><a href="ourteam.php">Teams</a></li>
+<li><a href="branches.php">Branches</a></li>
+
+
+
 <li><a href="services.php">Product & Services</a></li>
 <li><a href="portfolio.php">Portfolio</a></li>
 <li><a href="governance.php">Governance</a></li>

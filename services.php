@@ -42,15 +42,7 @@ height:  160px;
 
 <!-- start header -->
 <?php require("nav.php"); ?><!-- end header -->
-<section id="inner-headline">
-<div class="container">
-<div class="row">
-<div class="col-lg-12">
-<h2 class="pageTitle">Home | Services</h2>
-</div>
-</div>
-</div>
-</section>
+
 <section id="content">
 <div class="container content">		
 <!-- Service Blcoks -->
@@ -67,8 +59,9 @@ $query5 = "select * FROM product_services";
 $runquery5= mysqli_query($db,$query5);
 while($data5=mysqli_fetch_array($runquery5)){
 ?>
-<div class="col-lg-3 col-md-6 portfolio-item">
-<div class="portfolio-wrap">
+<div class="col-lg-3 col-md-6 portfolio-item" >
+<div class="portfolio-wrap" style="background-color:#2F409C;margin-bottom: 20px;box-sizing: border-box;padding: 0;color: #FFFFFF;font-family: var( --e-global-typography-text-font-family ), Sans-serif;
+font-weight: var( --e-global-typography-text-font-weight );">
 <img src="assets/img/<?=$data5['projectpic']?>" class="img-responsive" alt="">
 <div class="portfolio-links" >
 
