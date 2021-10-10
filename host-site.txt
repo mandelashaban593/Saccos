@@ -1,0 +1,1 @@
+Access Phpmyadmin  https://www.kongtechnology.com/2021/05/27/how-to-access-phpmyadmin-in-aws-lightsail/

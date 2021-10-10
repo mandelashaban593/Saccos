@@ -97,7 +97,7 @@ header .navbar-collapse  ul.navbar-nav {
 }
 
 header .navbar-default{
-    background-color: #fff;
+     background-color: #2F409C;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -114,6 +114,7 @@ header .nav li.active ul.dropdown-menu li.active a{
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
+     background-color: #2F409C;
 }
 header .nav li.active a,
 header .nav li.active a:hover{
@@ -128,6 +129,7 @@ header .navbar-default .navbar-nav > .open > a:focus {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
+
 }
 
 
@@ -165,12 +167,12 @@ header .nav .caret {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-   background-color:#32373c;
+    background-color: #2F409C;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
- background-color:#32373c;
+  background-color: #2F409C;
 }	
 	
 
@@ -232,17 +234,17 @@ header ul.nav li ul li a {
 
 
 .navbar .nav a:hover {
-	 background-color:#32373c;
+	  background-color: #2F409C;
 	color: #FFFFFF; !important;
 }
 
 .navbar .nav > .active > a,.navbar .nav > .active > a:hover {
-	 background-color:#32373c;
+	  background-color: #2F409C;
 	font-weight:700;
 }
 
 .navbar .nav > .active > a:active,.navbar .nav > .active > a:focus {
-	 background-color:#32373c;
+	  background-color: #2F409C;
 	outline:0;
 	font-weight:700;
 }
@@ -269,11 +271,12 @@ header ul.nav li ul li ul {
   border-right: none;
   border-bottom: none;
   border-left: none;
-  border-bottom-color: :#32373c;
+   background-color: #2F409C;
   content:none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 color: #FFFFFF; 
+ background-color: #2F409C;
 }
 
 
@@ -1663,7 +1666,7 @@ max-width:100%;
 	  margin: 2px 0 0;
 	  font-size: 13px;
 	  list-style: none;
-	  background-color: #fff;
+	  background-color: #2F409C;
 	  background-clip: padding-box;
 	  border: 1px solid #f5f5f5;
 	  border: 1px solid rgba(0, 0, 0, .15);

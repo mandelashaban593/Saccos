@@ -1,54 +1,312 @@
-<header>
-<div class="navbar navbar-default navbar-static-top">
-<div class="container">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="index.php"><img src="img/LogoSacc.jpg" alt="logo" style="width:6%;	position:fixed; 
-	top:0; 
-	left:0;margin-left: 14px; height: 70px;box-sizing: border-box;" /></a>
-</div>
-<div class="navbar-collapse collapse ">
-<ul class="nav navbar-nav">
-<li class="active"><a href="index.php">Home</a></li> 
-<li><a href="about.php">About Us</a></li>
 
-<li><a href="ourteam.php">Teams</a></li>
-<li><a href="branches.php">Branches</a></li>
+ <!-- Navbar linkhttps://github.com/bootstrapthemesco/bootstrap-4-multi-dropdown-navbar
+ -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link href="css/bootstrap-4-navbar.css" rel="stylesheet">
+<style>
+body {
+padding-top: 0px;
+font-size: 16px;
+position: relative;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+}
 
 
+.navbar {
+margin:  40px 0;
+}
+.nav-link{
+  color: ;
+}
 
-<li><a href="services.php">Product & Services</a></li>
-<li><a href="portfolio.php">Portfolio</a></li>
-<li><a href="governance.php">Governance</a></li>
-<li><a href="indrecogn.php">Industry recognition</a></li>
 
-<li><a href="contact.php">Contact</a></li>
-<li>
-	<li><a href="admin/index.php">Login</a></li>
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    background-color: #2F409C;
+     font-size: 16px;
+}
 
-<div class="dropdown" id="mydropdown">
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #2F409C;
+     text-decoration: underline;
+     font-size: 16px;
+}
 
-<!-- <span class="dropdown-menu" id="mydropdown-menu">
-<a href="pages/agentpages/home.php">Agent Dashboard</a>
-<a href="pages/stakeholderpages/stakeholderhome.php">Stakeholder dashboard</a>
-<a href="pages/employeepages/all-matatu.php">Sacco Employee Dashboard</a>
-<a href="pages/adminpages/index.php">Admin dashboard</a>
-<span class="divider" style="background:#ccc;border:1px solid #ccc;width:100%;"></span>
 
-</span> -->
-</div></li>
+
+.dropdown-menu>li>a:hover {
+   background-color:  #00215e;
+   text-decoration: underline;
+   font-size: 16px;
+}
+
+
+
+
+.dropdown-menu{
+  background-color: #00215e;
+  font-size: 16px;
+}
+.dropdown-menu>li>a{
+  background-color: #00215e;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+</style><!-- Static navbar -->
+
+
+<nav class="navbar navbar-expand-md navbar-light bg-ligt" style="color:#FFFFFF;
+background-color: #2F409C;  ">
+
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+<ul class="navbar-nav" style="margin-left: 100px;">
+  <img class="navbar-brand"  src="img/LogoSacc.jpg" alt="logo" style="width:6%;margin-right: 10px;height: 50px;box-sizing: border-box;" />
+
+<li class="nav-item active">
+<a class="nav-link" href="index.php" style="color: #fff;">Home <span class="sr-only">(current)</span></a>
+</li>
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about.php">
+About Us
+</a>
+<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<li><a class="dropdown-item"href="branches.php">Branches</a></li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Teams</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="boardmemb.php">Board Members</a></li>
+<li><a class="dropdown-item" href="supercomm.php">Supervisory Committe</a></li>
+<li><a class="dropdown-item" href="management.php">Management</a></li>
+
+
+<!-- <li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action aa</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li> -->
+
+<!-- <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action bb</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li> -->
+</ul>
+</li>
+
+<!-- <li><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Submenu action 2</a></li>
+<li><a class="dropdown-item" href="#">Another submenu action 2</a></li>
+
+
+<li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 1 3</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 2 3</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu 3</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 3 </a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 3</a></li>
+</ul>
+</li>
+</ul>
+</li> -->
 
 </ul>
-
-<div class="col-sm-4" id="" style="padding:10px">
-
+</li>
 
 
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about.php">
+Products & Services
+</a>
+<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<li><a class="dropdown-item"href="membership.php">Membership</a></li>
+<li><a class="dropdown-item"  href="savings.php">Savings Products</li>
+<li><a class="dropdown-item " href="banking.php">Banking Products</a></li>
+<li><a class="dropdown-item " href="credit.php">Credit Products</a></li>
+
+<!-- <ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Board Members</a></li>
+<li><a class="dropdown-item" href="#">Supervisory Committe</a></li>
+<li><a class="dropdown-item" href="#">Management</a></li>
+
+
+<li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action aa</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action bb</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li>
+</ul> -->
+
+
+<!-- <li><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Submenu action 2</a></li>
+<li><a class="dropdown-item" href="#">Another submenu action 2</a></li>
+
+
+<li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 1 3</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 2 3</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu 3</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 3 </a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 3</a></li>
+</ul>
+</li>
+</ul>
+</li> -->
+
+</ul>
+</li>
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about.php">
+Downloads
+</a>
+<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<li><a class="dropdown-item"href="document.php">Documents</a></li>
+<li><a class="dropdown-item"  href="tenders.php">Tenders</a></li>
+
+
+<!-- <ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Board Members</a></li>
+<li><a class="dropdown-item" href="#">Supervisory Committe</a></li>
+<li><a class="dropdown-item" href="#">Management</a></li>
+
+
+<li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action aa</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action bb</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li>
+</ul> -->
+
+</li>
+
+<!-- <li><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Submenu action 2</a></li>
+<li><a class="dropdown-item" href="#">Another submenu action 2</a></li>
+
+
+<li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 1 3</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 2 3</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu 3</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 3 </a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 3</a></li>
+</ul>
+</li>
+</ul>
+</li> -->
+
+</ul>
+</li>
+
+
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="about.php">
+Recognitions
+</a>
+<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+<li><a class="dropdown-item" href="governance.php">Governance</a></li>
+<li><a class="dropdown-item" href="indrecogn.php">Industry recognition</a></li>
+
+
+<!-- <ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Board Members</a></li>
+<li><a class="dropdown-item" href="#">Supervisory Committe</a></li>
+<li><a class="dropdown-item" href="#">Management</a></li>
+
+
+<li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action aa</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action bb</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+</ul>
+</li>
+</ul> -->
+
+</li>
+
+<!-- <li><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Submenu action 2</a></li>
+<li><a class="dropdown-item" href="#">Another submenu action 2</a></li>
+
+
+<li><a class="dropdown-item dropdown-toggle" href="#">Subsubmenu</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 1 3</a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 2 3</a></li>
+</ul>
+</li>
+<li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu 3</a>
+<ul class="dropdown-menu">
+<li><a class="dropdown-item" href="#">Subsubmenu action 3 </a></li>
+<li><a class="dropdown-item" href="#">Another subsubmenu action 3</a></li>
+</ul>
+</li>
+</ul>
+</li> -->
+
+</ul>
+</li>
+
+
+
+<li class="nav-item" style="color:#FFFFFF;top: 0px;
+background-color: #2F409C;">
+<a class="nav-link" href="contact.php">Contact Us</a>
+</li>
+<li class="nav-item" style="color:#FFFFFF;top: 0px;
+background-color: #2F409C;">
+<a class="nav-link" href="admin/index.php">Login</a></a>
+</li>
+
+
+</ul>
 </div>
-</div>
-</div>
-</header>
+</nav>

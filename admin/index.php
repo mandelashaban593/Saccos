@@ -19,6 +19,8 @@ $data=mysqli_fetch_array($queryrun);
     <title>Admin Panel</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/dashboard/">
+    <script src="//cdn.ckeditor.com/4.13.1/standard/ckeditor.js"></script>
+
 
     <!-- Bootstrap core CSS -->
 <link href="assets/dist/css/bootstrap.css" rel="stylesheet">
@@ -149,12 +151,82 @@ $data=mysqli_fetch_array($queryrun);
             </a>
           </li>
 
+
+
+        <li class="nav-item">
+        <a class="nav-link" href="?editboardmemb=true">
+          <span data-feather="info"></span>
+          Edit board members
+        </a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="?editsupercomm=true">
+          <span data-feather="info"></span>
+          Edit Supervisory Committee
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="?editmanagement=true">
+          <span data-feather="info"></span>
+          Edit management
+        </a>
+      </li>
+
+       <li class="nav-item">
+        <a class="nav-link" href="?editmembership=true">
+          <span data-feather="info"></span>
+          Edit membership
+        </a>
+      </li>
+
+
+      
+
+      <li class="nav-item">
+      <a class="nav-link" href="?editbranches=true">
+          <span data-feather="info"></span>
+          Edit branches
+
+        </a>
+      </li>
+
+       <li class="nav-item">
+      <a class="nav-link" href="?editsavings=true">
+          <span data-feather="info"></span>
+          Edit savings
+
+        </a>
+      </li>
+
+  <li class="nav-item">
+      <a class="nav-link" href="?editbanking=true">
+          <span data-feather="info"></span>
+          Edit banking
+
+        </a>
+      </li>
 <li class="nav-item">
-            <a class="nav-link" href="?editourteam=true">
-              <span data-feather="info"></span>
-              Edit our team
-            </a>
-          </li>
+      <a class="nav-link" href="?editcredit=true">
+          <span data-feather="info"></span>
+          Edit credit
+
+        </a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="?editdocument=true">
+          <span data-feather="info"></span>
+          Edit document
+
+        </a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="?edittenders=true">
+          <span data-feather="info"></span>
+          Edit tenders
+
+        </a>
+      </li>
+
 
 
 
@@ -186,6 +258,8 @@ $data=mysqli_fetch_array($queryrun);
               <span data-feather="user"></span>
               Edit Profile
             </a>
+
+
           </li>
         </ul>
       </div>
@@ -220,11 +294,32 @@ $data=mysqli_fetch_array($queryrun);
        include('php/resume.php');
      }else if(isset($_GET['editportfolio'])){
       include('php/portfolio.php');
+     }else if(isset($_GET['editbranches'])){
+      include('php/branches.php');
+     }else if(isset($_GET['editboardmemb'])){
+      include('php/boardmemb.php');
+     }else if(isset($_GET['editsupercomm'])){
+      include('php/supercomm.php');
+     }else if(isset($_GET['editmanagement'])){
+      include('php/management.php');
+     }else if(isset($_GET['editmembership'])){
+      include('php/membership.php');
+     }else if(isset($_GET['editsavings'])){
+      include('php/savings.php');
+     }else if(isset($_GET['editbanking'])){
+      include('php/banking.php');
+     }else if(isset($_GET['editcredit'])){
+      include('php/credit.php');
+     }else if(isset($_GET['editdocument'])){
+      include('php/document.php');
+     }else if(isset($_GET['edittenders'])){
+      include('php/tenders.php');
      }else if(isset($_GET['editseo'])){
          include('php/seo.php');
     
      }else if(isset($_GET['editprofile'])){ ?>
         <h2>Edit Profile</h2>
+
 
     <?php
          if(isset($_GET['msg'])){
@@ -267,4 +362,15 @@ $data=mysqli_fetch_array($queryrun);
         <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
         <script src="js/dashboard.js"></script></body>
+          <!-- Text Editor Script -->
+<script>
+CKEDITOR.replace('arContent');
+</script>
+
+<script>
+CKEDITOR.replace('arContent2');
+</script>
+
+
+
 </html>

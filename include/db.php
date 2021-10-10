@@ -6,4 +6,4 @@
 //    echo "something is wrong with database !";
 //}
 
-$db=mysqli_connect('localhost','root','root','webdynamic');
+$db=mysqli_connect('localhost','root','root','saccos_south');

@@ -26,7 +26,7 @@ Tel 0922468629/0925789680/0921300516</p>
 </div>
 <div class="col-lg-3">
 <div class="widget">
-<<!-- h5 class="widgetheading">Loans</h5>
+<!-- h5 class="widgetheading">Loans</h5>
 <ul class="link-list">
 <li><a href="#">1 - Loans/credit facilities like commercial, school fees and college, agriculture, development, and asset acquisition</a></li>
 <li><a href="#">2 - Savings like personal and group, fixed deposits</a></li>

@@ -12,12 +12,13 @@
  } 
 
 include('include/db.php');
-$query="SELECT * FROM contacts_setup";
+$query="SELECT * FROM branches";
 $queryrun=mysqli_query($db,$query);
 $data=mysqli_fetch_array($queryrun);
 
 
-?>  
+?>   
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,63 +28,139 @@ $data=mysqli_fetch_array($queryrun);
 <meta name="description" content="" />
 <meta name="author" content="http://webthemez.com" />
 <!-- css -->
-<!-- css -->
 <?php require("style.php"); ?>
- 
+
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
-<style type="text/css">
-    input{
-        text-align: left;
-color: rgba(233, 28, 33, 0.42);
-background-color: #ffffff;
-border-width: 0px 0px 0px 0px;
-border-radius: 0px 0px 0px 0px;
-display: inline-block;
-font-size: 14px;
-padding: 7px 12px;
-background-color: transparent;
-color: #333;
-border: 1px solid #ddd;
-
-    }
-</style>
 </head>
 <body>
 <div id="wrapper">
-	<!-- start header -->
-	<?php require("nav.php"); ?><!-- end header -->
-	
-    <h2 style="color: #FCF20C;
-font-family: 'Georgia', Sans-serif;
-font-size: 24px;
-font-weight: bold;margin-left: 1300px;
-letter-spacing: 1px;padding: 30px;margin: 10px;
-line-height: 1;">  Our Branch Network </h2>
 
-	<section id="content"  style="background-color:#2F409C;margin-bottom: 20px;box-sizing: border-box;padding: 0;color: #FFFFFF;font-family: var( --e-global-typography-text-font-family ), Sans-serif;
-font-weight: var( --e-global-typography-text-font-weight );">
-	
-	<div class="container">
-	<div class="row">
-	
-<div class="row" >
+<!-- start header -->
+<?php require("nav.php"); ?>
 
-<div class="col-md-6">  
 
-<!-- <h3 style="color: #FCF20C"><?=$data['heading'];?></h4> -->
-<p><?=nl2br($data['longdesc']);?></p>
-   
-<br/></p>
-<br/>
+<section id="content" style="margin-top:0px;background-color:#2F409C;background: 0.3s;border: 0.3s;border-radius: 0.3s;box-shadow: 0.3s;padding: 10px;width: 100%;flex-wrap: wrap;
+-ms-flex-line-pack: start;
+align-content: flex-start;color: var( --e-global-color-text );
+font-family: var( --e-global-typography-text-font-family ), Sans-serif;
+font-weight: var( --e-global-typography-text-font-weight );font-family:Liberation Serif;color: #FFFFFF;font-size: 16px;">
+<div class="container">
+
+
+<div class="about">
+
+<div class="row"> 
+
+
+  <style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  l
+</style>
+
+  <div class="container">
+  <img src="img/slides/sacc.jpg" alt="Snow" style="width:100%;height: 150px;">
+  
+  <div class="top-right" style="font-weight: 600;
+font-size: 16px;color: #FFFFFF;border: 0px;font-family: var( --e-global-typography-primary-font-family ), Sans-serif;
+font-weight: var( --e-global-typography-primary-font-weight );">
+<h2 style="font-size: 2.75em; font-weight: 600;   color:#F9EF0D">Our Team</h2><br/>
 
 </div>
 </div>
+
+
+<!-- Our Team starts -->
+
+<!-- Heading -->
+<div class="block-heading-six" style="margin-left: 200px;margin-right: 100px;">
+<h2 class="bg-color" style="color: #FFFFFF;font-family:Liberation Serif;padding: 0;
+margin: 1;line-height: 1;box-sizing: border-box;font-size: 1.75em;text-transform: none;letter-spacing: 0;"></h2>
 </div>
 
+<!-- Our team starts -->
+
+
+<!-- Our team starts -->
+
+<div class="team-six" style="margin-left: 100px;margin-right: 100px;background-color:#2F409C;font-size: 16px;">
+<div class="row offs1">
+<?php
+$query5 = "select * FROM branches";
+$runquery5= mysqli_query($db,$query5);
+while($data5=mysqli_fetch_array($runquery5)){
+?>
+<div class="col-md-4 col-xs-12  col-md-12 " style="background-color:#2F409C;">
+<div class="thumbnail" style="background-color:#2F409C;border-color:#2F409C;color: ;">
+<!-- <img class="" src="img/team3.jpg" alt=""> -->
+<!-- <img src="assets/img/<?=$data5['projectpic']?>" class="img-responsive" alt=""> -->
+<div class="caption" style="background-color:#2F409C; border-color:#2F409C;">
+<!--  <h4> 
+Mr. Kapere Charles Konyo  
+</h4> -->
+
+<p style="background-color:#2F409C;border-color:#2F409C;color: #FFFFFF;"> <?=nl2br($data5['projectname'])?>
+</p>
+</div>
+</div>
+</div>
+<?php
+}
+?>
+
+
+</div>
+</div>
+
+<!-- Our team ends -->
+
+
+
+
+
+
+
+
+
+</div>
+
+<hr>
+<br>
+
+
+</div>
 </section>
 
 <?php require("footer.php"); ?>
@@ -91,9 +168,8 @@ font-weight: var( --e-global-typography-text-font-weight );">
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
-    ================================================== -->
+================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <?php require("javascripts.php"); ?>
-
 </body>
 </html>
